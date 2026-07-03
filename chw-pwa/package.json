@@ -1,0 +1,20 @@
+{
+  "name": "chw-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline-first PWA for community health workers to record service visits in the field and sync to PHC Pulse when connectivity returns. Standalone client of the phc_pulse REST webhook -- not an openIMIS frontend module.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
